@@ -5,7 +5,7 @@ const sum = (a,b) => {
 // one euro is:
 let oneEuroIs = {
     "JPY": 127.9, // japan yen
-    "USD": 1.2, // us dollar
+    "USD": 1.206, // us dollar
     "GBP": 0.8, // british pound
 }
 // just a console log for ourselves.
@@ -31,4 +31,4 @@ const fromDollarToYen = function(valueInDollar){
     return valueInYenes;
 }
 
-module.exports = { fromEuroToDollar, fromDollarToYen };
+module.exports = { fromEuroToDollar, fromDollarToYen, fromYenToPound };
